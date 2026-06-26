@@ -30,3 +30,10 @@ body {
 .No4 { grid-area: No4; }
 .No5 { grid-area: No5; }
 .No6 { grid-area: No6; }
+
+.No3 {
+    grid-area: No3;
+    display: block !important; /* Overrides the center-alignment */
+    text-align: left;          /* Aligns text to the left */
+    padding: 20px;             /* Adds space inside the box */
+}
