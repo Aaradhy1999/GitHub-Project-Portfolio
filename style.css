@@ -25,3 +25,8 @@ body {
     justify-content: center;
     font-size: 1.5rem;
 }
+.No1 { grid-area: No1; }
+.No2 { grid-area: No2; }
+.No4 { grid-area: No4; }
+.No5 { grid-area: No5; }
+.No6 { grid-area: No6; }
