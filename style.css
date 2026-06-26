@@ -26,7 +26,14 @@ body {
     font-size: 1.5rem;
 }
 .No1 { grid-area: No1; }
-.No2 { grid-area: No2; }
+.No2 { 
+    grid-area: No2; 
+    display: flex;
+    flex-direction: column; /* Forces items to go under each other! */
+    gap: 12px;              /* Adds a clean space between the link and button */
+    justify-content: center;
+    align-items: center;
+}
 .No4 { grid-area: No4; }
 .No5 { grid-area: No5; }
 .No6 { grid-area: No6; }
