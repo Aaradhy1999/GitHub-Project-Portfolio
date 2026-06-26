@@ -4,3 +4,13 @@ body {
     padding: 20px;
     font-family: 'Segoe UI', sans-serif;
 }
+.main {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 200px);
+    gap: 15px;
+    grid-template-areas: 
+        "No1 No1 No2 No2"
+        "No3 No4 No5 No6"
+        "No3 No4 No5 No6";
+}
